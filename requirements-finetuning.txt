@@ -1,0 +1,7 @@
+# Só para o ajuste do modelo (finetuning/treino_lora.py) e para LLM_PROVIDER=hf.
+# No Colab, o torch já vem instalado.
+torch
+transformers>=4.44
+peft>=0.12
+datasets>=2.20
+accelerate>=0.33

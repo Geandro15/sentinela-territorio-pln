@@ -1,0 +1,24 @@
+# Interface
+gradio>=5.0
+# Configuração e chamadas HTTP (Ollama e APIs compatíveis com OpenAI)
+python-dotenv>=1.0
+requests>=2.31
+# Ferramenta de corpus
+pypdf>=4.0
+python-docx>=1.1
+beautifulsoup4>=4.12
+# Assistente de voz
+faster-whisper>=1.0
+# Pinado abaixo da 19: nessa versão o pacote PyAV removeu um parâmetro que o
+# faster-whisper ainda usa para abrir o áudio (erro: "metadata_errors").
+av<19,>=15
+edge-tts>=6.1
+num2words>=0.5.13
+# Assistente com RAG (Generative AI): embeddings em CPU, sem torch
+fastembed>=0.4
+numpy>=1.26
+# Busca na web (segunda fonte de evidência quando o INPE não cobre a pergunta): gratuita, sem chave de API
+ddgs>=9.0
+# Avaliação e testes
+jiwer>=3.0
+pytest>=8.0
