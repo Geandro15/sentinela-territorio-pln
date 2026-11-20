@@ -1,0 +1,9 @@
+Relato fictício para demonstrar a limpeza
+
+Este arquivo é um exemplo inventado. Ele mostra a união de palavras quebradas por hífen, como preven-
+ção e comuni-
+dade, e o mascaramento de dados pessoais.
+
+Moradora fictícia: Maria Exemplo, CPF 123.456.789-09, e-mail maria.exemplo@email.com, telefone (11) 91234-5678.
+
+Quando houver fumaça de queimada perto de casa, feche portas e janelas e fique em um cômodo interno. Um pano úmido sobre o nariz e a boca ajuda a respirar melhor por alguns minutos. Crianças, pessoas idosas e quem tem doença respiratória sofrem mais com a fumaça e devem ser levados primeiro para um lugar com ar limpo.

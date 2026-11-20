@@ -1,0 +1,17 @@
+flowchart TB
+  subgraph A["Parte A: ferramenta de corpus"]
+    direction LR
+    D["Documentos<br/>PDF, DOCX, TXT, HTML, CSV"] --> E["Extração"] --> L["Limpeza e<br/>mascaramento"] --> S["Trechos"]
+    S --> TP["Corpus 1<br/>texto puro"]
+    S --> G["Geração com LLM<br/>e validação"]
+    G --> R["Revisão humana"]
+    R --> QA["Corpus 2<br/>perguntas e respostas"]
+    R --> CV["Corpus 3<br/>conversacional"]
+  end
+  subgraph B["Parte B: assistente de voz"]
+    direction LR
+    M["Microfone<br/>ou upload"] --> STT["STT<br/>faster-whisper"] --> RAG["Busca BM25"] --> LLM["LLM<br/>com memória"] --> AD["Adaptação<br/>para fala"] --> TTS["TTS"] --> AF["Alto-falante<br/>e texto na tela"]
+  end
+  TP -->|base de conhecimento| RAG
+  QA -->|fine-tuning LoRA| LLM
+  CV -->|fine-tuning LoRA| LLM

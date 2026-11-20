@@ -1,0 +1,22 @@
+arquivo,referencia,locutor,grupo,ruido
+a01.m4a,"Vi fogo no mato perto da estrada, o que eu faço?",voz1,homem_maduro,nao
+a02.m4a,Qual é o telefone dos Bombeiros?,voz1,homem_maduro,nao
+a03.m4a,Qual é o telefone da Defesa Civil?,voz1,homem_maduro,nao
+a04.m4a,Posso tentar apagar o fogo sozinho?,voz1,homem_maduro,nao
+a05.m4a,O que eu falo quando ligar para avisar do fogo?,voz1,homem_maduro,nao
+a06.m4a,"O fogo está chegando perto das casas, para que lado eu saio?",voz1,homem_maduro,sim
+a07.m4a,Posso voltar em casa para pegar minhas coisas durante o fogo?,voz1,homem_maduro,sim
+a08.m4a,"Tem muita fumaça de queimada entrando em casa, o que eu faço?",voz2,mulher_adulta,nao
+a09.m4a,O pano molhado no rosto ajuda com a fumaça?,voz2,mulher_adulta,nao
+a10.m4a,Quem sofre mais com a fumaça?,voz2,mulher_adulta,nao
+a11.m4a,Posso queimar o lixo e as folhas do quintal?,voz2,mulher_adulta,nao
+a12.m4a,O que é aceiro?,voz2,mulher_adulta,nao
+a13.m4a,Colocar fogo na mata é crime?,voz2,mulher_adulta,sim
+a14.m4a,Como eu recebo os alertas da Defesa Civil no celular?,voz2,mulher_adulta,sim
+a15.mp4,O que eu faço quando chega um alerta da Defesa Civil?,voz3,homem_jovem,nao
+a16.mp4,"Se o alerta mandar sair de casa, para onde eu vou?",voz3,homem_jovem,nao
+a17.mp4,Quais são os sinais de que uma casa pode estar em risco?,voz3,homem_jovem,nao
+a18.mp4,"Ouvi um estalo forte na parede, o que eu faço?",voz3,homem_jovem,nao
+a19.mp4,Posso consertar a rachadura por conta própria?,voz3,homem_jovem,nao
+a20.mp4,Onde eu aviso de um buraco na calçada?,voz3,homem_jovem,sim
+a21.mp4,E se o fogo estiver perto das casas?,voz3,homem_jovem,sim

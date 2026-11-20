@@ -1,0 +1,4 @@
+Os arquivos desta pasta sao EXEMPLOS escritos apenas para o projeto rodar de ponta a ponta.
+Antes da entrega, o grupo deve trocar por documentos oficiais (Defesa Civil, Bombeiros, prefeitura,
+gov.br), colocar os arquivos em dados/base/ e registrar a URL de cada um em dados/base/fontes.csv.
+Confira nos documentos oficiais cada informacao usada nos exemplos (telefones, cadastro por SMS).

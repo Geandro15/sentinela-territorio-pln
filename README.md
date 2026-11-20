@@ -64,7 +64,7 @@ A ferramenta de corpus produz a base de conhecimento do assistente. O corpus de 
 Estrutura de pastas:
 
 ```text
-pln/
+(pasta do projeto)/
   app.py                    interface Gradio (assistente e ferramenta de corpus)
   config.py                 leitura do .env
   requirements.txt          dependências do projeto
@@ -133,7 +133,7 @@ Pré-requisitos: Python 3.10 ou mais novo e, para o LLM local, o [Ollama](https:
 ### Windows
 
 ```bat
-cd pln
+cd <pasta onde o projeto foi baixado>
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
@@ -144,7 +144,7 @@ ollama pull qwen2.5:3b
 ### Linux e macOS
 
 ```bash
-cd pln
+cd <pasta onde o projeto foi baixado>
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
@@ -156,7 +156,7 @@ ollama pull qwen2.5:3b
 
 ```python
 !git clone <URL do repositório do grupo>
-%cd <nome do repositório>/pln
+%cd <nome do repositório>
 !pip install -q -r requirements.txt
 !curl -fsSL https://ollama.com/install.sh | sh
 !nohup ollama serve > ollama.log 2>&1 &
@@ -208,7 +208,7 @@ Quando algum componente usa a nuvem, a interface mostra um aviso ao cidadão.
 
 ## 7. Como executar
 
-Todos os comandos são dados dentro da pasta `pln`, com o ambiente virtual ativo.
+Todos os comandos são dados dentro da pasta do projeto, com o ambiente virtual ativo.
 
 ### Passo 1: gerar a base de conhecimento
 

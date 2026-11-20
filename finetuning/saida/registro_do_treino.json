@@ -1,0 +1,15 @@
+{
+  "modelo_base": "Qwen/Qwen2.5-0.5B-Instruct",
+  "epocas": 3.0,
+  "lote": 1,
+  "taxa_de_aprendizado": 0.0002,
+  "lora": {
+    "r": 16,
+    "alpha": 32,
+    "dropout": 0.05
+  },
+  "exemplos_treino": 12,
+  "exemplos_validacao": 2,
+  "perda_final_treino": 2.4846196704440646,
+  "perda_validacao": 2.1768720149993896
+}

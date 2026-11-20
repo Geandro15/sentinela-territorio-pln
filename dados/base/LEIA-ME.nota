@@ -1,0 +1,3 @@
+Coloque aqui os documentos OFICIAIS do tema (PDF, DOCX, TXT, HTML).
+Registre em fontes.csv o nome de cada arquivo e a URL de onde ele foi baixado.
+Depois rode:  python -m corpus --entrada dados/base --saida dados/corpus

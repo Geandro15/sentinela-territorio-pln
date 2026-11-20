@@ -1,0 +1,64 @@
+{
+  "data": "2026-11-09",
+  "documentos": [
+    {
+      "nome": "alertas_defesa_civil.txt",
+      "fonte": "EXEMPLO - substituir pela pagina oficial",
+      "erro": "",
+      "trechos": 2
+    },
+    {
+      "nome": "queimadas.txt",
+      "fonte": "EXEMPLO - substituir pela pagina oficial",
+      "erro": "",
+      "trechos": 3
+    },
+    {
+      "nome": "relato_com_ruido.txt",
+      "fonte": "EXEMPLO - texto ficticio",
+      "erro": "",
+      "trechos": 1
+    },
+    {
+      "nome": "riscos_em_construcoes.txt",
+      "fonte": "EXEMPLO - substituir pela pagina oficial",
+      "erro": "",
+      "trechos": 2
+    }
+  ],
+  "contagem": {
+    "texto_puro": 8,
+    "perguntas_respostas_treino": 0,
+    "perguntas_respostas_validacao": 0,
+    "perguntas_respostas_teste": 0,
+    "conversacional_teste": 1,
+    "conversacional_validacao": 2,
+    "conversacional_treino": 12
+  },
+  "limpeza": {
+    "caracteres_antes": 3239,
+    "caracteres_depois": 3201,
+    "linhas_repetidas_removidas": 0,
+    "hifens_unidos": 2,
+    "trechos_curtos_descartados": 0,
+    "duplicatas_removidas": 1,
+    "dados_mascarados": {
+      "cpf": 1,
+      "email": 1,
+      "telefone": 1
+    }
+  },
+  "geracao": {
+    "itens_descartados_na_validacao": 0,
+    "falhas_do_llm": 0
+  },
+  "arquivos": [
+    "texto_puro.jsonl",
+    "perguntas_respostas_treino.jsonl",
+    "perguntas_respostas_validacao.jsonl",
+    "perguntas_respostas_teste.jsonl",
+    "conversacional_teste.jsonl",
+    "conversacional_validacao.jsonl",
+    "conversacional_treino.jsonl"
+  ]
+}
